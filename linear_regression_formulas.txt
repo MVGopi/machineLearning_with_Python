@@ -1,0 +1,28 @@
+Linear Regression:
+----------------------
+line equation - > y = m * x + c
+
+m(slope) -> ∑(x - (mean of x)(y - (mean of y))/∑(x -
+(mean of x))^2.
+
+c(intercept) -> mean_y - (m *mean_x)
+
+ypredicted -> m * x + c
+
+r^2 -> ∑(ypredicted - mean of y )^2/ ∑(y
+- mean of y)^2
+
+
+steps for applying machine learning algorithm
+
+- Data Preparation
+
+- Machine Learning Model Intialization
+
+- Fitting data to model
+
+- Predicting output for test data
+
+- Model Evaluation
+	- r^2 score(if it is >=0.5 model is working fine otherwise need to train the model
+	with more data)
